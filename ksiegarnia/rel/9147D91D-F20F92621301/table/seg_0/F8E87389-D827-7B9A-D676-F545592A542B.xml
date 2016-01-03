@@ -1,0 +1,61 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F8E87389-D827-7B9A-D676-F545592A542B" name="wyplata">
+<createdBy>Daniel</createdBy>
+<createdTime>2015-12-05 13:23:56 UTC</createdTime>
+<generatorID>9D454D87-07FB-34CE-603E-5B02C5130E6C</generatorID>
+<ownerDesignName>ksiegarnia</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="89A77289-A8B1-6F24-4AD5-2E577E82D186">
+<createdBy>Daniel</createdBy>
+<createdTime>2015-12-05 13:23:57 UTC</createdTime>
+<generatorID>C8B994BF-7B6E-B127-5609-014C5B5B153A</generatorID>
+<ownerDesignName>ksiegarnia</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="brutto" id="0B1588DD-3203-A4C1-2BE6-CD5819A31994">
+<createdBy>Daniel</createdBy>
+<createdTime>2015-12-05 13:23:57 UTC</createdTime>
+<generatorID>EF760A8B-E28A-7338-A0E3-79F6A9C54216</generatorID>
+<ownerDesignName>ksiegarnia</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="netto" id="735163C6-CF4C-1972-8046-E7D9411D7B29">
+<createdBy>Daniel</createdBy>
+<createdTime>2015-12-05 13:23:57 UTC</createdTime>
+<generatorID>6F2FC4CD-8702-7483-CEF9-D1C5EE2FDBF2</generatorID>
+<ownerDesignName>ksiegarnia</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="6A882519-8A0E-D66C-5B13-3DA3F2D6C1B0" name="wyplata_PK">
+<createdBy>Daniel</createdBy>
+<createdTime>2015-12-05 13:23:57 UTC</createdTime>
+<generatorID>BACFA98C-D204-7829-BBCE-CE8081B3FD26</generatorID>
+<ownerDesignName>ksiegarnia</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="89A77289-A8B1-6F24-4AD5-2E577E82D186"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

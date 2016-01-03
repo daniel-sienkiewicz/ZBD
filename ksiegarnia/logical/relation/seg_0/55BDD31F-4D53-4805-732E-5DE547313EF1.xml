@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="egzemplarz typ FK" directorySegmentName="seg_0" id="55BDD31F-4D53-4805-732E-5DE547313EF1">
+<createdBy>Daniel</createdBy>
+<createdTime>2015-12-05 13:43:40 UTC</createdTime>
+<ownerDesignName>ksiegarnia</ownerDesignName>
+<engineerTo>
+<item key="9147D91D-FCF4-D291-B9F2-F20F92621301" value="true"/>
+</engineerTo>
+<sourcePk>C3E83348-08B1-65B5-C88C-F0D3FF6CE940</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>A8AD869E-73CD-CC1A-DD6A-FBD02298176C</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>7BB80851-85B2-30AB-3FF5-96DC303FDE4D</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

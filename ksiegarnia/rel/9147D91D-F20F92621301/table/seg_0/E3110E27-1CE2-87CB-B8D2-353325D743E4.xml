@@ -1,0 +1,76 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E3110E27-1CE2-87CB-B8D2-353325D743E4" name="autor">
+<createdBy>Daniel</createdBy>
+<createdTime>2015-12-05 13:23:56 UTC</createdTime>
+<generatorID>425F54E1-1E0A-E075-3E13-AA53D6985F56</generatorID>
+<ownerDesignName>ksiegarnia</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="8AD15C9C-1D64-A709-EB98-E1EBEAC954C3">
+<createdBy>Daniel</createdBy>
+<createdTime>2015-12-05 13:23:56 UTC</createdTime>
+<generatorID>5D1942DC-1529-C229-D462-D2ED9005313C</generatorID>
+<ownerDesignName>ksiegarnia</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="daneOsobowe_id" id="FD876369-0CC3-C1F5-F9BD-A56BD9C01FBC">
+<createdBy>Daniel</createdBy>
+<createdTime>2015-12-05 13:24:56 UTC</createdTime>
+<generatorID>26E702C8-965D-2996-A34E-50D8A5CE43EB</generatorID>
+<ownerDesignName>ksiegarnia</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="BB66593E-F1B8-CB7B-EC52-37EE1B7BC0CF" referredColumn="31CFAABE-F133-5371-F31A-2F49A1ED0CD1"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="6899E280-C1C4-440B-43BB-FAFB0D6820D3" name="autor_PK">
+<createdBy>Daniel</createdBy>
+<createdTime>2015-12-05 13:23:56 UTC</createdTime>
+<generatorID>D40A6017-7266-BCDF-4854-87E759910717</generatorID>
+<ownerDesignName>ksiegarnia</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8AD15C9C-1D64-A709-EB98-E1EBEAC954C3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="041EA7BC-9776-1074-37C8-FE2BB2C9E717" name="autor__IDX">
+<createdBy>Daniel</createdBy>
+<createdTime>2015-12-05 13:24:56 UTC</createdTime>
+<ownerDesignName>ksiegarnia</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>A4E7A48E-E9F7-4E6F-FED9-270AC9CA756B</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="FD876369-0CC3-C1F5-F9BD-A56BD9C01FBC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="79362E32-3E31-559B-15B2-CFDFB82605AD" name="autor_daneOsobowe_FK">
+<createdBy>Daniel</createdBy>
+<createdTime>2015-12-05 13:24:56 UTC</createdTime>
+<generatorID>A4E7A48E-E9F7-4E6F-FED9-270AC9CA756B</generatorID>
+<ownerDesignName>ksiegarnia</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FD876369-0CC3-C1F5-F9BD-A56BD9C01FBC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

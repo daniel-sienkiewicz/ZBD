@@ -1,0 +1,59 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="FB5F291F-7B48-36E8-0820-C58480022B3B" name="gatunek">
+<createdBy>Daniel</createdBy>
+<createdTime>2015-12-05 13:05:25 UTC</createdTime>
+<ownerDesignName>ksiegarnia</ownerDesignName>
+<engineerTo>
+<item key="9147D91D-FCF4-D291-B9F2-F20F92621301" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id" id="A00F52CA-8801-4E08-BCF5-93958050C51A">
+<createdBy>Daniel</createdBy>
+<createdTime>2015-12-05 13:05:31 UTC</createdTime>
+<ownerDesignName>ksiegarnia</ownerDesignName>
+<engineerTo>
+<item key="9147D91D-FCF4-D291-B9F2-F20F92621301" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nazwa" id="F47454A8-E569-0A42-38DE-6D2D760C07BC">
+<createdBy>Daniel</createdBy>
+<createdTime>2015-12-05 13:05:42 UTC</createdTime>
+<ownerDesignName>ksiegarnia</ownerDesignName>
+<engineerTo>
+<item key="9147D91D-FCF4-D291-B9F2-F20F92621301" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="E662FBCC-02FA-9C11-F8C6-4EA11B8C45E2" name="gatunek PK">
+<createdBy>Daniel</createdBy>
+<createdTime>2015-12-05 13:05:34 UTC</createdTime>
+<ownerDesignName>ksiegarnia</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="9147D91D-FCF4-D291-B9F2-F20F92621301" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>A00F52CA-8801-4E08-BCF5-93958050C51A</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

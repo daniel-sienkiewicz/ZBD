@@ -1,0 +1,72 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="8D1CA421-DE64-627E-48E8-445B23E47CFC" name="rezerwacja">
+<createdBy>Daniel</createdBy>
+<createdTime>2015-12-05 13:07:31 UTC</createdTime>
+<ownerDesignName>ksiegarnia</ownerDesignName>
+<engineerTo>
+<item key="9147D91D-FCF4-D291-B9F2-F20F92621301" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id" id="C491D1DF-64CE-51AE-61D2-95DC327263CE">
+<createdBy>Daniel</createdBy>
+<createdTime>2015-12-05 13:07:36 UTC</createdTime>
+<ownerDesignName>ksiegarnia</ownerDesignName>
+<engineerTo>
+<item key="9147D91D-FCF4-D291-B9F2-F20F92621301" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="naKiedy" id="DADD8B10-E28F-0648-A4E1-2E320C5D0571">
+<createdBy>Daniel</createdBy>
+<createdTime>2015-12-05 13:07:59 UTC</createdTime>
+<ownerDesignName>ksiegarnia</ownerDesignName>
+<engineerTo>
+<item key="9147D91D-FCF4-D291-B9F2-F20F92621301" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="klient id" id="C88AB8CC-0913-7B2A-9017-EEE34AFEFF25">
+<createdBy>Daniel</createdBy>
+<createdTime>2015-12-05 14:05:45 UTC</createdTime>
+<generatorID>092F08C3-B12E-26DD-9FAB-E74CBF834622</generatorID>
+<ownerDesignName>ksiegarnia</ownerDesignName>
+<engineerTo>
+<item key="9147D91D-FCF4-D291-B9F2-F20F92621301" value="true"/>
+</engineerTo>
+<referedAttribute>0E5F69E7-CDE1-014A-7B6B-5C1A1EBFA8EC</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="663527F2-A03E-882B-5CC2-4141B7B1A996" name="rezerwacja PK">
+<createdBy>Daniel</createdBy>
+<createdTime>2015-12-05 13:07:42 UTC</createdTime>
+<ownerDesignName>ksiegarnia</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="9147D91D-FCF4-D291-B9F2-F20F92621301" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>C491D1DF-64CE-51AE-61D2-95DC327263CE</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

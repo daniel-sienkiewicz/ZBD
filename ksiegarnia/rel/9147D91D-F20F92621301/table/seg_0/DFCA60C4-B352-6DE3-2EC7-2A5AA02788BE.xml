@@ -1,0 +1,99 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="DFCA60C4-B352-6DE3-2EC7-2A5AA02788BE" name="rabat">
+<createdBy>Daniel</createdBy>
+<createdTime>2015-12-05 13:23:56 UTC</createdTime>
+<generatorID>CA9377C6-D549-DF5B-FB80-22C0DAAB0464</generatorID>
+<ownerDesignName>ksiegarnia</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="F170150F-F356-BC83-64D7-A99306FFA0B0">
+<createdBy>Daniel</createdBy>
+<createdTime>2015-12-05 13:23:56 UTC</createdTime>
+<generatorID>E8922DB0-AD26-0783-87B2-EBC13A952F02</generatorID>
+<ownerDesignName>ksiegarnia</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="wielkosc" id="D8AEA73F-5B51-48B3-6D47-336838B724B4">
+<createdBy>Daniel</createdBy>
+<createdTime>2015-12-05 13:23:56 UTC</createdTime>
+<generatorID>9DC52127-5A4B-D706-6C80-78FC6F315113</generatorID>
+<ownerDesignName>ksiegarnia</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="aktywny" id="D28CEE4F-F162-93F8-883D-3137B702D9CE">
+<createdBy>Daniel</createdBy>
+<createdTime>2015-12-05 13:23:56 UTC</createdTime>
+<generatorID>B41934D1-5477-B849-4AE7-4B2AAEE7412A</generatorID>
+<ownerDesignName>ksiegarnia</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="waznyDo" id="AC1D681C-3483-67BE-DBE8-74586C6D0999">
+<createdBy>Daniel</createdBy>
+<createdTime>2015-12-05 13:23:56 UTC</createdTime>
+<generatorID>949E6B51-E9F2-74F8-C33D-3263420F2DD6</generatorID>
+<ownerDesignName>ksiegarnia</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="klient_id" id="8A4F6C31-FCFE-8624-1401-F5506AC21A3D">
+<createdBy>Daniel</createdBy>
+<createdTime>2015-12-05 14:19:52 UTC</createdTime>
+<generatorID>66FB2D32-A084-4FC0-1C54-945663162925</generatorID>
+<ownerDesignName>ksiegarnia</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="52E44537-BB90-5779-92D2-0278735C5DEA" referredColumn="A6346FF6-0B9F-082F-0237-CC5CDA95ABDB"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="4CCC5CF6-A770-2EBD-1447-E39117173485" name="rabat_PK">
+<createdBy>Daniel</createdBy>
+<createdTime>2015-12-05 13:23:56 UTC</createdTime>
+<generatorID>14E1C419-CBE7-EBB5-C832-8E2269831116</generatorID>
+<ownerDesignName>ksiegarnia</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F170150F-F356-BC83-64D7-A99306FFA0B0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7DC3F14A-A03F-1A90-EDCF-72FF8790B6AD" name="rabat_klient_FK">
+<createdBy>Daniel</createdBy>
+<createdTime>2015-12-05 14:19:52 UTC</createdTime>
+<generatorID>725E1F9B-D4E6-C599-DB5E-83C4C80A0C7F</generatorID>
+<ownerDesignName>ksiegarnia</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8A4F6C31-FCFE-8624-1401-F5506AC21A3D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

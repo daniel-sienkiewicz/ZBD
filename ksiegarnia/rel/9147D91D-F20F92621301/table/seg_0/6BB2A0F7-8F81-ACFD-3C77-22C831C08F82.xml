@@ -1,0 +1,99 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="6BB2A0F7-8F81-ACFD-3C77-22C831C08F82" name="adres">
+<createdBy>Daniel</createdBy>
+<createdTime>2015-12-05 12:41:13 UTC</createdTime>
+<generatorID>406EA7C6-977E-C504-0C77-712EFCBE42F5</generatorID>
+<ownerDesignName>ksiegarnia</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="1A9CE91C-26D2-20EB-8AA6-D1E0A1E92B34">
+<createdBy>Daniel</createdBy>
+<createdTime>2015-12-05 12:41:13 UTC</createdTime>
+<generatorID>1869B4EB-D9C2-6837-789F-BAE68B659354</generatorID>
+<ownerDesignName>ksiegarnia</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ulica" id="DE01130E-7D72-9647-3875-12697BEC767A">
+<createdBy>Daniel</createdBy>
+<createdTime>2015-12-05 12:41:13 UTC</createdTime>
+<generatorID>71449C8F-32AE-F94C-0396-2C0EA3FC012E</generatorID>
+<ownerDesignName>ksiegarnia</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60 CHAR</dataTypeSize>
+<ownDataTypeParameters>60 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nrDomu" id="6CAAC7B9-D628-6678-75E4-F2E129480EDE">
+<createdBy>Daniel</createdBy>
+<createdTime>2015-12-05 12:41:13 UTC</createdTime>
+<generatorID>F292373B-4B69-235F-33D8-86D021E81C67</generatorID>
+<ownerDesignName>ksiegarnia</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nrMieszkania" id="A15C408F-9727-A821-C953-02402CB32425">
+<createdBy>Daniel</createdBy>
+<createdTime>2015-12-05 12:41:13 UTC</createdTime>
+<generatorID>83BAA576-77A9-F06F-A77B-5D1912FA1B39</generatorID>
+<ownerDesignName>ksiegarnia</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="miasto" id="6264A61A-B940-AC09-C2A6-3BB5B0010928">
+<createdBy>Daniel</createdBy>
+<createdTime>2015-12-05 12:41:13 UTC</createdTime>
+<generatorID>AA7C683A-123E-D9A3-138A-C55793B2F066</generatorID>
+<ownerDesignName>ksiegarnia</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40 CHAR</dataTypeSize>
+<ownDataTypeParameters>40 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="kodPocztowy" id="9170DA77-E52A-BC37-A1B2-FD6D0E1D5707">
+<createdBy>Daniel</createdBy>
+<createdTime>2015-12-05 12:41:13 UTC</createdTime>
+<generatorID>AA4418E8-944D-1264-673D-572DA4F8E19C</generatorID>
+<ownerDesignName>ksiegarnia</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>6 CHAR</dataTypeSize>
+<ownDataTypeParameters>6 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="BA59EA30-88B1-627B-A102-DB80B1105EAD" name="adres_PK">
+<createdBy>Daniel</createdBy>
+<createdTime>2015-12-05 12:41:13 UTC</createdTime>
+<generatorID>2A3DF389-3424-0F5D-2528-56DA8600C890</generatorID>
+<ownerDesignName>ksiegarnia</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1A9CE91C-26D2-20EB-8AA6-D1E0A1E92B34"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

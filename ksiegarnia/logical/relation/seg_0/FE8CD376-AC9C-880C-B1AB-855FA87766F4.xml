@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="pracownik adres FK" directorySegmentName="seg_0" id="FE8CD376-AC9C-880C-B1AB-855FA87766F4">
+<createdBy>Daniel</createdBy>
+<createdTime>2015-12-05 14:01:41 UTC</createdTime>
+<ownerDesignName>ksiegarnia</ownerDesignName>
+<engineerTo>
+<item key="9147D91D-FCF4-D291-B9F2-F20F92621301" value="true"/>
+</engineerTo>
+<sourcePk>2A3DF389-3424-0F5D-2528-56DA8600C890</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>406EA7C6-977E-C504-0C77-712EFCBE42F5</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>C3804052-A0C0-5F99-B333-3777FEAE83DB</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

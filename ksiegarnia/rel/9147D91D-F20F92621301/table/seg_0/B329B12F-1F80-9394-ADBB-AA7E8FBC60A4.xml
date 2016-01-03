@@ -1,0 +1,177 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B329B12F-1F80-9394-ADBB-AA7E8FBC60A4" name="pracownik">
+<createdBy>Daniel</createdBy>
+<createdTime>2015-12-05 13:23:56 UTC</createdTime>
+<generatorID>C3804052-A0C0-5F99-B333-3777FEAE83DB</generatorID>
+<ownerDesignName>ksiegarnia</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="A603A9D7-251C-8799-BD1C-C8998E0907D8">
+<createdBy>Daniel</createdBy>
+<createdTime>2015-12-05 13:23:56 UTC</createdTime>
+<generatorID>E2DC5835-40E5-517E-2064-09A1BD45238D</generatorID>
+<ownerDesignName>ksiegarnia</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nrSluzbowy" id="BFA6A55A-AA31-E1ED-C424-CDF5209F06DF">
+<createdBy>Daniel</createdBy>
+<createdTime>2015-12-05 13:23:56 UTC</createdTime>
+<generatorID>6432DE3B-9DF6-0A22-9B46-AC9FBE12FB7E</generatorID>
+<ownerDesignName>ksiegarnia</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="daneOsobowe_id" id="DB7DC6CC-6EE2-ECB8-3375-53C3B8617D0B">
+<createdBy>Daniel</createdBy>
+<createdTime>2015-12-05 13:24:56 UTC</createdTime>
+<generatorID>776A8D98-8686-3D75-18B7-BADB7ED81031</generatorID>
+<ownerDesignName>ksiegarnia</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8197BE6A-C360-5BCE-F7C1-4E982F801FEF" referredColumn="31CFAABE-F133-5371-F31A-2F49A1ED0CD1"/>
+</associations>
+</Column>
+<Column name="stanowisko_id" id="E9B66D05-0267-64A0-5EB3-1C1770E71E1D">
+<createdBy>Daniel</createdBy>
+<createdTime>2015-12-05 13:34:56 UTC</createdTime>
+<generatorID>A75867A2-40C8-FD11-8B33-0E625A927919</generatorID>
+<ownerDesignName>ksiegarnia</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7524CDDD-7DA7-C9EB-3E77-4D79F534A11E" referredColumn="4A97F623-A1EB-8590-DE71-A715C91385CB"/>
+</associations>
+</Column>
+<Column name="oddzial_id" id="CBA12134-DB03-ABC8-E46D-6BC978A5833B">
+<createdBy>Daniel</createdBy>
+<createdTime>2015-12-05 13:56:33 UTC</createdTime>
+<generatorID>CF86284E-9B0E-E72D-8BAE-FB7969D5C7DB</generatorID>
+<ownerDesignName>ksiegarnia</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E82C30F5-C4FE-E7AC-297A-7399C2B31126" referredColumn="840D7BAF-FC5B-5C87-4416-C22032B87197"/>
+</associations>
+</Column>
+<Column name="adres_id" id="4EFE473A-49D0-D699-BF30-C1E482FE24A0">
+<createdBy>Daniel</createdBy>
+<createdTime>2015-12-05 14:19:52 UTC</createdTime>
+<generatorID>62FF1A1E-E151-E4B5-FE65-3885565F0AEC</generatorID>
+<ownerDesignName>ksiegarnia</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5F3B72A2-069F-C52C-DEDA-FA92A17DDF6D" referredColumn="1A9CE91C-26D2-20EB-8AA6-D1E0A1E92B34"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="7742E743-B7BB-E52F-275F-9BFEF3E89285" name="pracownik_PK">
+<createdBy>Daniel</createdBy>
+<createdTime>2015-12-05 13:23:56 UTC</createdTime>
+<generatorID>A4446542-8933-B8A7-DA06-B74E3D391D7F</generatorID>
+<ownerDesignName>ksiegarnia</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A603A9D7-251C-8799-BD1C-C8998E0907D8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="900D6B8D-806E-B1E7-206B-5C32D0981443" name="pracownik__IDX">
+<createdBy>Daniel</createdBy>
+<createdTime>2015-12-05 13:24:56 UTC</createdTime>
+<ownerDesignName>ksiegarnia</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>4698FF9D-4542-3527-2E8A-0DFB922B431A</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="DB7DC6CC-6EE2-ECB8-3375-53C3B8617D0B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F767633C-4453-310C-D513-917E48BCE6BB" name="pracownik__IDXv1">
+<createdBy>Daniel</createdBy>
+<createdTime>2015-12-05 14:19:52 UTC</createdTime>
+<ownerDesignName>ksiegarnia</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>FE8CD376-AC9C-880C-B1AB-855FA87766F4</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="4EFE473A-49D0-D699-BF30-C1E482FE24A0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F5F315CA-7610-2A64-B0E6-99570CFE07B2" name="pracownik_daneOsobowe_FK">
+<createdBy>Daniel</createdBy>
+<createdTime>2015-12-05 13:24:56 UTC</createdTime>
+<generatorID>4698FF9D-4542-3527-2E8A-0DFB922B431A</generatorID>
+<ownerDesignName>ksiegarnia</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DB7DC6CC-6EE2-ECB8-3375-53C3B8617D0B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="99F0E7FE-49BD-35F0-18AF-DA468DC99880" name="pracownik_stanowisko_FK">
+<createdBy>Daniel</createdBy>
+<createdTime>2015-12-05 13:34:56 UTC</createdTime>
+<generatorID>36CD0F73-FAF7-61CD-F53C-918F8D0B2D3A</generatorID>
+<ownerDesignName>ksiegarnia</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E9B66D05-0267-64A0-5EB3-1C1770E71E1D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="AA7B6E27-25A5-1E14-D6C8-8B2306800BD9" name="pracownik_oddzial_FK">
+<createdBy>Daniel</createdBy>
+<createdTime>2015-12-05 13:56:33 UTC</createdTime>
+<generatorID>A38B8801-E251-1503-20D6-A6BE297D0728</generatorID>
+<ownerDesignName>ksiegarnia</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CBA12134-DB03-ABC8-E46D-6BC978A5833B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6DFF7D8A-F08C-9B34-96E8-45457585A8C8" name="pracownik_adres_FK">
+<createdBy>Daniel</createdBy>
+<createdTime>2015-12-05 14:19:52 UTC</createdTime>
+<generatorID>FE8CD376-AC9C-880C-B1AB-855FA87766F4</generatorID>
+<ownerDesignName>ksiegarnia</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4EFE473A-49D0-D699-BF30-C1E482FE24A0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

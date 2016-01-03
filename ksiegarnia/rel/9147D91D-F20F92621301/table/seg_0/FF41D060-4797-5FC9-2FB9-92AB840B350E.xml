@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="FF41D060-4797-5FC9-2FB9-92AB840B350E" name="Relation_25">
+<createdBy>Daniel</createdBy>
+<createdTime>2015-12-05 17:17:22 UTC</createdTime>
+<ownerDesignName>ksiegarnia</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="wydawnictwo_id" id="7FC6D00A-D328-00FB-7FD8-35251496CE38">
+<createdBy>Daniel</createdBy>
+<createdTime>2015-12-05 17:17:22 UTC</createdTime>
+<ownerDesignName>ksiegarnia</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="EF1F30DE-3B4B-C22D-0495-C5E5785D55B4" referredColumn="50A38040-A670-3325-149C-171BDF63D54B"/>
+</associations>
+</Column>
+<Column name="ksiazka_id" id="8F69CA6D-D98B-BB35-ED49-68F0813826A5">
+<createdBy>Daniel</createdBy>
+<createdTime>2015-12-05 17:17:22 UTC</createdTime>
+<ownerDesignName>ksiegarnia</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="63E429FA-2808-23ED-5AD5-A6C4EA2F09C5" referredColumn="E3D9B482-6BFE-A22D-3C6B-16B6459565E6"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="8BC37C14-61D2-AA75-F811-02129F900586" name="Relation_25_PK">
+<createdBy>Daniel</createdBy>
+<createdTime>2015-12-05 17:17:22 UTC</createdTime>
+<ownerDesignName>ksiegarnia</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7FC6D00A-D328-00FB-7FD8-35251496CE38"/>
+<colUsage columnID="8F69CA6D-D98B-BB35-ED49-68F0813826A5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CEF063C5-F1A5-871A-F4DF-C4297B4B9308" name="FK_ASS_154">
+<createdBy>Daniel</createdBy>
+<createdTime>2015-12-05 17:17:22 UTC</createdTime>
+<generatorID>6994F95C-02D5-73F9-5C18-FF66F8872A27</generatorID>
+<ownerDesignName>ksiegarnia</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7FC6D00A-D328-00FB-7FD8-35251496CE38"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="157BA4BC-926B-E1E7-167B-2478539041C1" name="FK_ASS_155">
+<createdBy>Daniel</createdBy>
+<createdTime>2015-12-05 17:17:22 UTC</createdTime>
+<generatorID>6994F95C-02D5-73F9-5C18-FF66F8872A27</generatorID>
+<ownerDesignName>ksiegarnia</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8F69CA6D-D98B-BB35-ED49-68F0813826A5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

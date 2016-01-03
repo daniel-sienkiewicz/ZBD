@@ -1,0 +1,63 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="2ED5EB15-D682-1134-E587-89790A71780B" name="premia">
+<createdBy>Daniel</createdBy>
+<createdTime>2015-12-05 14:32:53 UTC</createdTime>
+<generatorID>18061ACC-5E16-256C-4154-61564B5B8AD2</generatorID>
+<ownerDesignName>ksiegarnia</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="E390B28B-B0F5-51D4-D65E-3D7B36ED6A61">
+<createdBy>Daniel</createdBy>
+<createdTime>2015-12-05 14:32:53 UTC</createdTime>
+<generatorID>86B147B9-BC82-A0AD-F5DD-E652713E485E</generatorID>
+<ownerDesignName>ksiegarnia</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="wielkosc" id="4E7F09C8-552E-2A1E-DF89-16750770D1C6">
+<createdBy>Daniel</createdBy>
+<createdTime>2015-12-05 14:32:53 UTC</createdTime>
+<generatorID>186FF042-ACCF-478D-798E-A83FA3E61587</generatorID>
+<ownerDesignName>ksiegarnia</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="okazja" id="26F3F01D-99B9-5462-73F3-FC0E9FBA819D">
+<createdBy>Daniel</createdBy>
+<createdTime>2015-12-05 14:32:53 UTC</createdTime>
+<generatorID>48958DB1-18BD-18BE-673A-106A55EC8DFA</generatorID>
+<ownerDesignName>ksiegarnia</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="11BAF16D-2C66-B424-2BB9-173904834D48" name="premia_PK">
+<createdBy>Daniel</createdBy>
+<createdTime>2015-12-05 14:32:53 UTC</createdTime>
+<generatorID>C6B029DA-D7B7-AD14-FC6A-66A97C0ED371</generatorID>
+<ownerDesignName>ksiegarnia</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E390B28B-B0F5-51D4-D65E-3D7B36ED6A61"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

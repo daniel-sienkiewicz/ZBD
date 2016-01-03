@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="ksiazka gatunek FK" directorySegmentName="seg_0" id="0069A55C-7836-A12B-7944-B6A3B639F6D2">
+<createdBy>Daniel</createdBy>
+<createdTime>2015-12-05 13:46:28 UTC</createdTime>
+<ownerDesignName>ksiegarnia</ownerDesignName>
+<engineerTo>
+<item key="9147D91D-FCF4-D291-B9F2-F20F92621301" value="true"/>
+</engineerTo>
+<sourcePk>E662FBCC-02FA-9C11-F8C6-4EA11B8C45E2</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>FB5F291F-7B48-36E8-0820-C58480022B3B</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>B5311FE7-B992-5ECF-797D-F6EBACB0486E</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

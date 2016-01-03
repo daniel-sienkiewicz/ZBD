@@ -1,0 +1,102 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="AFBA1528-E5BB-9239-5058-99C5DF40DD1B" name="sprzedaz">
+<createdBy>Daniel</createdBy>
+<createdTime>2015-12-05 13:23:56 UTC</createdTime>
+<generatorID>07EE549C-BB00-F14F-FBE0-4B235046BFB0</generatorID>
+<ownerDesignName>ksiegarnia</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="22281424-5E45-AFED-C32F-74198534C775">
+<createdBy>Daniel</createdBy>
+<createdTime>2015-12-05 13:23:56 UTC</createdTime>
+<generatorID>53CB5056-7BEE-0D7D-774F-31DE0D2F70C9</generatorID>
+<ownerDesignName>ksiegarnia</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dataSprzedazy" id="50223F33-433F-5CCF-F130-73804766286D">
+<createdBy>Daniel</createdBy>
+<createdTime>2015-12-05 13:23:56 UTC</createdTime>
+<generatorID>DF159A59-4775-05E2-DA3E-BEC7CE93B16C</generatorID>
+<ownerDesignName>ksiegarnia</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="klient_id" id="373A55D9-9B30-D2BC-C206-B6EF76B28193">
+<createdBy>Daniel</createdBy>
+<createdTime>2015-12-05 14:19:52 UTC</createdTime>
+<generatorID>11F9539A-8558-2FAE-5EA6-E17E17928079</generatorID>
+<ownerDesignName>ksiegarnia</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1EFE8753-FDA6-4183-8F1E-06BBB7CA908A" referredColumn="A6346FF6-0B9F-082F-0237-CC5CDA95ABDB"/>
+</associations>
+</Column>
+<Column name="oddzial_id" id="B73598A8-BD8E-D607-6C1F-57FCD0A74C19">
+<createdBy>Daniel</createdBy>
+<createdTime>2015-12-05 14:19:52 UTC</createdTime>
+<generatorID>C546699A-430E-ED57-E2DE-E96B3E9D8452</generatorID>
+<ownerDesignName>ksiegarnia</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C8318252-D9C5-6B6A-0366-B33A87B0F514" referredColumn="840D7BAF-FC5B-5C87-4416-C22032B87197"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="8D8EDB36-8B53-BF77-2635-EB9BE117FE1A" name="sprzedaz_PK">
+<createdBy>Daniel</createdBy>
+<createdTime>2015-12-05 13:23:56 UTC</createdTime>
+<generatorID>4BFF4B7E-959B-3893-54E6-9040705B1B4E</generatorID>
+<ownerDesignName>ksiegarnia</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="22281424-5E45-AFED-C32F-74198534C775"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="69EA700A-8517-596F-E1B7-D9A550A3CE58" name="sprzedaz_klient_FK">
+<createdBy>Daniel</createdBy>
+<createdTime>2015-12-05 14:19:52 UTC</createdTime>
+<generatorID>965D5D3F-9C19-3763-0BB0-3256069FE523</generatorID>
+<ownerDesignName>ksiegarnia</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="373A55D9-9B30-D2BC-C206-B6EF76B28193"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1F258784-8AFA-EB6E-269E-4285EB02B7DF" name="sprzedaz_oddzial_FK">
+<createdBy>Daniel</createdBy>
+<createdTime>2015-12-05 14:19:52 UTC</createdTime>
+<generatorID>482533E8-0B90-DAA9-158E-4D3047D80C06</generatorID>
+<ownerDesignName>ksiegarnia</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B73598A8-BD8E-D607-6C1F-57FCD0A74C19"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

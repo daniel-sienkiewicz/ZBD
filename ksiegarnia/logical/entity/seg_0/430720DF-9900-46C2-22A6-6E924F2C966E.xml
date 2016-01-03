@@ -1,0 +1,87 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="430720DF-9900-46C2-22A6-6E924F2C966E" name="klient">
+<createdBy>Daniel</createdBy>
+<createdTime>2015-12-05 12:49:58 UTC</createdTime>
+<ownerDesignName>ksiegarnia</ownerDesignName>
+<engineerTo>
+<item key="9147D91D-FCF4-D291-B9F2-F20F92621301" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id" id="0E5F69E7-CDE1-014A-7B6B-5C1A1EBFA8EC">
+<createdBy>Daniel</createdBy>
+<createdTime>2015-12-05 12:50:04 UTC</createdTime>
+<ownerDesignName>ksiegarnia</ownerDesignName>
+<engineerTo>
+<item key="9147D91D-FCF4-D291-B9F2-F20F92621301" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nrKlienta" id="ACC75003-3C11-DA8A-993A-6B02E7A33F92">
+<createdBy>Daniel</createdBy>
+<createdTime>2015-12-05 12:50:35 UTC</createdTime>
+<ownerDesignName>ksiegarnia</ownerDesignName>
+<engineerTo>
+<item key="9147D91D-FCF4-D291-B9F2-F20F92621301" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="daneOsobowe id" id="EC4A8427-14A1-E939-7307-A1C3AE77EF4B">
+<createdBy>Daniel</createdBy>
+<createdTime>2015-12-05 13:24:34 UTC</createdTime>
+<generatorID>20013017-AE53-8A5C-FEA3-184CC3558ABE</generatorID>
+<ownerDesignName>ksiegarnia</ownerDesignName>
+<engineerTo>
+<item key="9147D91D-FCF4-D291-B9F2-F20F92621301" value="true"/>
+</engineerTo>
+<referedAttribute>0C6EA2A8-7C5B-1DDA-C176-61EE81F2C77A</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="adres id" id="7A5E4F69-0B59-4F6D-1E9B-F3DBA1BA0D91">
+<createdBy>Daniel</createdBy>
+<createdTime>2015-12-05 14:01:56 UTC</createdTime>
+<generatorID>30997807-8B9B-4116-6BB1-4A8DB39D793E</generatorID>
+<ownerDesignName>ksiegarnia</ownerDesignName>
+<engineerTo>
+<item key="9147D91D-FCF4-D291-B9F2-F20F92621301" value="true"/>
+</engineerTo>
+<referedAttribute>1869B4EB-D9C2-6837-789F-BAE68B659354</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="092489EE-20FF-3736-02F7-BC24332B27C6" name="klient PK">
+<createdBy>Daniel</createdBy>
+<createdTime>2015-12-05 12:50:06 UTC</createdTime>
+<ownerDesignName>ksiegarnia</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="9147D91D-FCF4-D291-B9F2-F20F92621301" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>0E5F69E7-CDE1-014A-7B6B-5C1A1EBFA8EC</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

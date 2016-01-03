@@ -1,0 +1,88 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="35A00E0B-55AA-4085-DEF6-F97FEE6D86AE" name="oddzial">
+<createdBy>Daniel</createdBy>
+<createdTime>2015-12-05 13:23:56 UTC</createdTime>
+<generatorID>33478BED-8CE6-DAFF-525D-DE6CF8BDCC3E</generatorID>
+<ownerDesignName>ksiegarnia</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="840D7BAF-FC5B-5C87-4416-C22032B87197">
+<createdBy>Daniel</createdBy>
+<createdTime>2015-12-05 13:23:56 UTC</createdTime>
+<generatorID>E0638E12-5CB6-6D16-0CFD-B8A4D86CD273</generatorID>
+<ownerDesignName>ksiegarnia</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nazwa" id="F7657CE8-4F53-CC5C-4E05-0083D11F5CE0">
+<createdBy>Daniel</createdBy>
+<createdTime>2015-12-05 13:23:56 UTC</createdTime>
+<generatorID>01E76EDA-0469-A8DD-7B99-180BDA0DD4E5</generatorID>
+<ownerDesignName>ksiegarnia</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="adres_id" id="E9A11698-EF90-7BB8-38FB-1A73931AC9EE">
+<createdBy>Daniel</createdBy>
+<createdTime>2015-12-05 13:30:45 UTC</createdTime>
+<generatorID>864527B6-4AA9-2207-253A-0BE409BAD086</generatorID>
+<ownerDesignName>ksiegarnia</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6E757795-9370-97D4-C45C-064BBD1E5B36" referredColumn="1A9CE91C-26D2-20EB-8AA6-D1E0A1E92B34"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="2DD2A3B6-0311-E448-F0AD-532DCB25E152" name="oddzial_PK">
+<createdBy>Daniel</createdBy>
+<createdTime>2015-12-05 13:23:56 UTC</createdTime>
+<generatorID>0F3D9D99-75C7-0D7B-8C7F-4FDC914042CA</generatorID>
+<ownerDesignName>ksiegarnia</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="840D7BAF-FC5B-5C87-4416-C22032B87197"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E6CCD397-E54D-60F7-4C29-F1E04583D203" name="oddzial__IDX">
+<createdBy>Daniel</createdBy>
+<createdTime>2015-12-05 13:30:45 UTC</createdTime>
+<ownerDesignName>ksiegarnia</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>7CE12ACE-9810-86C0-AEB0-DA9E9E5058B0</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="E9A11698-EF90-7BB8-38FB-1A73931AC9EE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2FFE7CDA-3590-47AF-9F9B-504F14C27739" name="oddzial_adres_FK">
+<createdBy>Daniel</createdBy>
+<createdTime>2015-12-05 13:30:45 UTC</createdTime>
+<generatorID>7CE12ACE-9810-86C0-AEB0-DA9E9E5058B0</generatorID>
+<ownerDesignName>ksiegarnia</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E9A11698-EF90-7BB8-38FB-1A73931AC9EE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,60 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="425F54E1-1E0A-E075-3E13-AA53D6985F56" name="autor">
+<createdBy>Daniel</createdBy>
+<createdTime>2015-12-05 13:00:36 UTC</createdTime>
+<ownerDesignName>ksiegarnia</ownerDesignName>
+<engineerTo>
+<item key="9147D91D-FCF4-D291-B9F2-F20F92621301" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id" id="5D1942DC-1529-C229-D462-D2ED9005313C">
+<createdBy>Daniel</createdBy>
+<createdTime>2015-12-05 13:00:41 UTC</createdTime>
+<ownerDesignName>ksiegarnia</ownerDesignName>
+<engineerTo>
+<item key="9147D91D-FCF4-D291-B9F2-F20F92621301" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="daneOsobowe id" id="26E702C8-965D-2996-A34E-50D8A5CE43EB">
+<createdBy>Daniel</createdBy>
+<createdTime>2015-12-05 13:24:40 UTC</createdTime>
+<generatorID>A4E7A48E-E9F7-4E6F-FED9-270AC9CA756B</generatorID>
+<ownerDesignName>ksiegarnia</ownerDesignName>
+<engineerTo>
+<item key="9147D91D-FCF4-D291-B9F2-F20F92621301" value="true"/>
+</engineerTo>
+<referedAttribute>0C6EA2A8-7C5B-1DDA-C176-61EE81F2C77A</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="D40A6017-7266-BCDF-4854-87E759910717" name="autor PK">
+<createdBy>Daniel</createdBy>
+<createdTime>2015-12-05 13:00:59 UTC</createdTime>
+<ownerDesignName>ksiegarnia</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="9147D91D-FCF4-D291-B9F2-F20F92621301" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>5D1942DC-1529-C229-D462-D2ED9005313C</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

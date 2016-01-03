@@ -1,0 +1,73 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="61D9E15F-CB98-1C0A-5F51-D6EF5130945D" name="stanowisko">
+<createdBy>Daniel</createdBy>
+<createdTime>2015-12-05 12:51:25 UTC</createdTime>
+<ownerDesignName>ksiegarnia</ownerDesignName>
+<engineerTo>
+<item key="9147D91D-FCF4-D291-B9F2-F20F92621301" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id" id="BCEA256B-B104-98F3-1E7F-15022BFA5ACC">
+<createdBy>Daniel</createdBy>
+<createdTime>2015-12-05 12:51:30 UTC</createdTime>
+<ownerDesignName>ksiegarnia</ownerDesignName>
+<engineerTo>
+<item key="9147D91D-FCF4-D291-B9F2-F20F92621301" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nazwa" id="CECB87BE-02A7-DAF2-B5A2-DA9B6BB8B903">
+<createdBy>Daniel</createdBy>
+<createdTime>2015-12-05 12:52:15 UTC</createdTime>
+<ownerDesignName>ksiegarnia</ownerDesignName>
+<engineerTo>
+<item key="9147D91D-FCF4-D291-B9F2-F20F92621301" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="wyplata id" id="6DA96C1A-E4EB-3363-DE33-8855A2D4DF7D">
+<createdBy>Daniel</createdBy>
+<createdTime>2015-12-05 13:32:22 UTC</createdTime>
+<generatorID>F8C1E806-67C0-8D70-A35F-6FAF4DEBA2B7</generatorID>
+<ownerDesignName>ksiegarnia</ownerDesignName>
+<engineerTo>
+<item key="9147D91D-FCF4-D291-B9F2-F20F92621301" value="true"/>
+</engineerTo>
+<referedAttribute>C8B994BF-7B6E-B127-5609-014C5B5B153A</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="AD4D31C4-0EB2-03AE-1372-6CF636025A99" name="stanowisko PK">
+<createdBy>Daniel</createdBy>
+<createdTime>2015-12-05 12:51:33 UTC</createdTime>
+<ownerDesignName>ksiegarnia</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="9147D91D-FCF4-D291-B9F2-F20F92621301" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>BCEA256B-B104-98F3-1E7F-15022BFA5ACC</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

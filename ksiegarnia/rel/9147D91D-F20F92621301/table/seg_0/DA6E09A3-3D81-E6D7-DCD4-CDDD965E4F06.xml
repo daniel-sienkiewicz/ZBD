@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="DA6E09A3-3D81-E6D7-DCD4-CDDD965E4F06" name="stanowisko">
+<createdBy>Daniel</createdBy>
+<createdTime>2015-12-05 13:23:56 UTC</createdTime>
+<generatorID>61D9E15F-CB98-1C0A-5F51-D6EF5130945D</generatorID>
+<ownerDesignName>ksiegarnia</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="4A97F623-A1EB-8590-DE71-A715C91385CB">
+<createdBy>Daniel</createdBy>
+<createdTime>2015-12-05 13:23:56 UTC</createdTime>
+<generatorID>BCEA256B-B104-98F3-1E7F-15022BFA5ACC</generatorID>
+<ownerDesignName>ksiegarnia</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nazwa" id="5F523851-487B-9105-BBF7-3C8A7A9C9C75">
+<createdBy>Daniel</createdBy>
+<createdTime>2015-12-05 13:23:56 UTC</createdTime>
+<generatorID>CECB87BE-02A7-DAF2-B5A2-DA9B6BB8B903</generatorID>
+<ownerDesignName>ksiegarnia</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="wyplata_id" id="92EAF8CC-010F-D72F-9024-55B79F95ACD2">
+<createdBy>Daniel</createdBy>
+<createdTime>2015-12-05 13:34:56 UTC</createdTime>
+<generatorID>6DA96C1A-E4EB-3363-DE33-8855A2D4DF7D</generatorID>
+<ownerDesignName>ksiegarnia</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C37E1BB0-1D62-CFE9-2C62-759905AF5E93" referredColumn="89A77289-A8B1-6F24-4AD5-2E577E82D186"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="90E30090-9811-5419-6B93-734FBD69D02F" name="stanowisko_PK">
+<createdBy>Daniel</createdBy>
+<createdTime>2015-12-05 13:23:56 UTC</createdTime>
+<generatorID>AD4D31C4-0EB2-03AE-1372-6CF636025A99</generatorID>
+<ownerDesignName>ksiegarnia</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4A97F623-A1EB-8590-DE71-A715C91385CB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D3CBCD09-D005-CBCE-BCA6-2F25678AA0B2" name="stanowisko_wyplata_FK">
+<createdBy>Daniel</createdBy>
+<createdTime>2015-12-05 13:34:56 UTC</createdTime>
+<generatorID>F8C1E806-67C0-8D70-A35F-6FAF4DEBA2B7</generatorID>
+<ownerDesignName>ksiegarnia</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="92EAF8CC-010F-D72F-9024-55B79F95ACD2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
