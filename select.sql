@@ -136,7 +136,20 @@ BEGIN
     END IF;
 END;
 
--- 3.
+-- 3. Automatycznie ustawianie plci klienta poprze PESEL
+CREATE OR REPLACE TRIGGER check_sex AFTER INSERT ON daneOsobowe
+DECLARE
+idk number := 0;
+pesel_new number := 0;
+  BEGIN
+    SELECT id, pesel INTO idk, pesel_new FROM daneOsobowe WHERE id = (SELECT max(id) FROM daneOsobowe);
+    
+    IF (mod(substr(TO_CHAR(pesel_new),11,1), 2) = 0) THEN
+      UPDATE daneOsobowe SET plec = 'M' WHERE id = idk;
+    ELSE
+      UPDATE daneOsobowe SET plec = 'K' WHERE id = idk;
+    END IF;
+  END;
 
 -- 4.
 

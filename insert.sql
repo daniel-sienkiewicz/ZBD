@@ -47,18 +47,18 @@ INSERT into adres (ulica, nrDomu, nrMieszkania, miasto, kodPocztowy) VALUES ('Mo
 INSERT into adres (ulica, nrDomu, nrMieszkania, miasto, kodPocztowy) VALUES ('Rybolowcow', '13', 4, 'Gdansk', '80-543');
 
 -- Dane Osobowe --
-INSERT INTO daneOsobowe (imie, nazwisko, dataUr, pesel, nrTelefonu) VALUES ('Konio', 'Kon', TO_DATE('2003/05/03', 'yyyy/mm/dd'), '92121511350', '5261455');
-INSERT INTO daneOsobowe (imie, nazwisko, dataUr, pesel, nrTelefonu) VALUES ('Ktos', 'Taki', TO_DATE('1992/02/01', 'yyyy/mm/dd'), '92121511350', '5261455');
-INSERT INTO daneOsobowe (imie, nazwisko, dataUr, pesel, nrTelefonu) VALUES ('Maly', 'Duzy', TO_DATE('1993/12/06', 'yyyy/mm/dd'), '92121511350', '5261455');
-INSERT INTO daneOsobowe (imie, nazwisko, dataUr, pesel, nrTelefonu) VALUES ('Ala', 'Kot', TO_DATE('1989/10/02', 'yyyy/mm/dd'), '92121511350', '5261455');
-INSERT INTO daneOsobowe (imie, nazwisko, dataUr, pesel, nrTelefonu) VALUES ('Pawel', 'Wityk', TO_DATE('1999/03/03', 'yyyy/mm/dd'), '92121511350', '5261455');
-INSERT INTO daneOsobowe (imie, nazwisko, dataUr, pesel, nrTelefonu) VALUES ('Magik', 'Zygar', TO_DATE('2001/05/03', 'yyyy/mm/dd'), '92121511350', '5261455');
-INSERT INTO daneOsobowe (imie, nazwisko, dataUr, pesel, nrTelefonu) VALUES ('Kasia', 'Zygar', TO_DATE('2002/01/01', 'yyyy/mm/dd'), '92121511350', '5261455');
-INSERT INTO daneOsobowe (imie, nazwisko, dataUr, pesel, nrTelefonu) VALUES ('Ada', 'Mis', TO_DATE('1995/04/15', 'yyyy/mm/dd'), '92121511350', '5261455');
-INSERT INTO daneOsobowe (imie, nazwisko, dataUr, pesel, nrTelefonu) VALUES ('Maciek', 'Maciejewski', TO_DATE('1978/03/13', 'yyyy/mm/dd'), '92121511350', '5261455');
-INSERT INTO daneOsobowe (imie, nazwisko, dataUr, pesel, nrTelefonu) VALUES ('Daniel', 'Dan', TO_DATE('2008/06/08', 'yyyy/mm/dd'), '92121511350', '5261455');
-INSERT INTO daneOsobowe (imie, nazwisko, dataUr, pesel, nrTelefonu) VALUES ('Paulina', 'Pina', TO_DATE('1965/04/12', 'yyyy/mm/dd'), '92121511350', '5261455');
-INSERT INTO daneOsobowe (imie, nazwisko, dataUr, pesel, nrTelefonu) VALUES ('Kuba', 'Skarzynski', TO_DATE('1986/12/30', 'yyyy/mm/dd'), '92121511350', '5261455');
+INSERT INTO daneOsobowe (imie, nazwisko, dataUr, pesel, nrTelefonu, plec) VALUES ('Konio', 'Kon', TO_DATE('2003/05/03', 'yyyy/mm/dd'), '92121511350', '5261455', 'M');
+INSERT INTO daneOsobowe (imie, nazwisko, dataUr, pesel, nrTelefonu, plec) VALUES ('Ktos', 'Taki', TO_DATE('1992/02/01', 'yyyy/mm/dd'), '92121511350', '5261455', 'M');
+INSERT INTO daneOsobowe (imie, nazwisko, dataUr, pesel, nrTelefonu, plec) VALUES ('Maly', 'Duzy', TO_DATE('1993/12/06', 'yyyy/mm/dd'), '92121511350', '5261455', 'M');
+INSERT INTO daneOsobowe (imie, nazwisko, dataUr, pesel, nrTelefonu, plec) VALUES ('Ala', 'Kot', TO_DATE('1989/10/02', 'yyyy/mm/dd'), '92121511350', '5261455', 'M');
+INSERT INTO daneOsobowe (imie, nazwisko, dataUr, pesel, nrTelefonu, plec) VALUES ('Pawel', 'Wityk', TO_DATE('1999/03/03', 'yyyy/mm/dd'), '92121511350', '5261455', 'M');
+INSERT INTO daneOsobowe (imie, nazwisko, dataUr, pesel, nrTelefonu, plec) VALUES ('Magik', 'Zygar', TO_DATE('2001/05/03', 'yyyy/mm/dd'), '92121511350', '5261455', 'M');
+INSERT INTO daneOsobowe (imie, nazwisko, dataUr, pesel, nrTelefonu, plec) VALUES ('Kasia', 'Zygar', TO_DATE('2002/01/01', 'yyyy/mm/dd'), '92121511350', '5261455', 'M');
+INSERT INTO daneOsobowe (imie, nazwisko, dataUr, pesel, nrTelefonu, plec) VALUES ('Ada', 'Mis', TO_DATE('1995/04/15', 'yyyy/mm/dd'), '92121511350', '5261455', 'M');
+INSERT INTO daneOsobowe (imie, nazwisko, dataUr, pesel, nrTelefonu, plec) VALUES ('Maciek', 'Maciejewski', TO_DATE('1978/03/13', 'yyyy/mm/dd'), '92121511350', '5261455', 'M');
+INSERT INTO daneOsobowe (imie, nazwisko, dataUr, pesel, nrTelefonu, plec) VALUES ('Daniel', 'Dan', TO_DATE('2008/06/08', 'yyyy/mm/dd'), '92121511350', '5261455', 'M');
+INSERT INTO daneOsobowe (imie, nazwisko, dataUr, pesel, nrTelefonu, plec) VALUES ('Paulina', 'Pina', TO_DATE('1965/04/12', 'yyyy/mm/dd'), '92121511350', '5261455', 'M');
+INSERT INTO daneOsobowe (imie, nazwisko, dataUr, pesel, nrTelefonu, plec) VALUES ('Kuba', 'Skarzynski', TO_DATE('1986/12/30', 'yyyy/mm/dd'), '92121511350', '5261455', 'M');
 
 -- Klient --
 INSERT INTO klient (nrKlienta, daneOsobowe_id, adres_id) VALUES(11, 1, 1);

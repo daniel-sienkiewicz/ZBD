@@ -81,6 +81,7 @@
 <createdBy>Daniel</createdBy>
 <createdTime>2015-12-05 13:24:56 UTC</createdTime>
 <ownerDesignName>ksiegarnia</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <relationGeneratorID>20013017-AE53-8A5C-FEA3-184CC3558ABE</relationGeneratorID>
 <indexColumnUsage>
@@ -91,6 +92,7 @@
 <createdBy>Daniel</createdBy>
 <createdTime>2015-12-05 14:19:52 UTC</createdTime>
 <ownerDesignName>ksiegarnia</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <relationGeneratorID>30997807-8B9B-4116-6BB1-4A8DB39D793E</relationGeneratorID>
 <indexColumnUsage>

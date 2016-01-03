@@ -87,7 +87,8 @@ CREATE TABLE daneOsobowe
     nazwisko   VARCHAR2 (20) NOT NULL ,
     dataUr     DATE NOT NULL ,
     pesel      NUMBER NOT NULL ,
-    nrTelefonu NUMBER
+    nrTelefonu NUMBER,
+	plec 	   VARCHAR(1)
   ) ;
 ALTER TABLE daneOsobowe ADD CONSTRAINT daneOsobowe_PK PRIMARY KEY ( id ) ;
 
