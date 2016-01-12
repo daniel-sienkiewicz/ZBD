@@ -43,11 +43,3 @@ DROP SEQUENCE typ_id_SEQ;
 DROP SEQUENCE wydawnictwo_id_SEQ;
 DROP SEQUENCE wyplata_id_SEQ;
 DROP SEQUENCE adres_id_SEQ;
-
-drop view "SYSTEM"."TOPKLIENTS";
-drop view "SYSTEM"."COUNTBOUGHTBOOK";
-drop package "SYSTEM"."PAKIECIK";
-drop procedure "SYSTEM"."AKTUALIZACJA_CENY";
-drop procedure "SYSTEM"."NAZWAPRZEDMIOTUSTUDENTA";
-drop function "SYSTEM"."WIEK";
-drop function "SYSTEM"."VALIDPESEL";

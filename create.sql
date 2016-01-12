@@ -6,7 +6,6 @@
 -- Daniel Sienkiewicz
 -- 206358
 
-
 CREATE TABLE Relation_12
   (
     autor_id   NUMBER NOT NULL ,
